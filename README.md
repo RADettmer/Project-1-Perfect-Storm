@@ -20,29 +20,30 @@ What could we do to predict fires thus preventing loss of life and property?
 Data Needs/Sources include: Weather data (rainfall, humidity, lightning strikes, wind), forest density, topography data, US Forest/Park Service (campfires), Google Maps(proximity to water, road density, etc.), Census data (population density), US Core Science for Geography (topography/hydrography)
 
 First step in analysis:
-    Explore data to determine time frame of analysis (expected to be 1992 to 
-2015)
-    Begin to map State/US wildfire data to obtain locations of interest and begin to     plot     
-collect longitudinal data about those points
- Plot average temperature and # of wildfires to determine correlation
-
-Google Slide link is below:
-
-https://docs.google.com/presentation/d/1oi3hWiER92GDA3QvJHg4dgrXnxhKYUGcniX7T1FTKgY/edit#slide=id.p
+    Explore data to determine time frame of analysis (expected to be 1992 to 2015) 
+    Begin to map State/US wildfire data to obtain locations of interest and begin to plot     
+    collect longitudinal data about those points
+    Plot average temperature and # of wildfires to determine correlation
+    
+Some conclusions:
+    Wild fire volumes vary by year but have increased between 1992 and 2015.
+    Size of affected land has also increased during the same period.
+    Lightning is the largest cause of wild fires for the larger fire type, F & G.
+    Wind gust ranges have been increasing over this period.
+    Wind speed has a weak but negative correlation to the length of burn.
+    Housing density and population density do not have a significat correlation to the length of burn.
 
 File list:
 
 Camp.Fires.ipynb - API call for camp fires - not completely working
 Combined_Data_Perfect_Storm.ipynb - python file to merge fire, census and weather data
-Entire US Heatmap.JPG - heat map of 
+Entire US Heatmap.JPG - heat map of entire US
 FHM_State_County_codes.xls - county codes to determine locations in fire data to match to census data
 FiredataWorking.ipynb - jupyter notebook code to generate scatter plots and regression lines on fire data and combined data
 FiresAll.ipynb -
-Hawaiian Heatmap.JPG -
+Hawaiian Heatmap.JPG - heat map
 Mainland US Heatmap.JPG -
 NOAA API.py -
-Population_Density_Census_2000.csv - ?? duplicate
-Population_Density_Census_2010.csv - ?? duplicate
 Pesent_start.pptx - started presentation with some basic graphs
 WeatherAPI_Data_All_11560_values.csv - file will all of the downloaded weather data
 WeatherAPI_Data_first700.csv - file will only the first 700 locations of weather data
